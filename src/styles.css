@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .boton-practica {
+        @apply bg-secondary text-primary hover:text-tercery text-mediano m-5 rounded-medio
+    }
+
+    .formulario-practica input{
+        @apply bg-primary border-4 border-tercery text-secondary text-pequeño
+    }
+
+    .formulario-practica .submit {
+        @apply font-cursive text-muygrande
+    }
+}
